@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Formulario Final</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Ingrese sus datos</h1>
+
+    <form id="formulario">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="apellido" placeholder="Apellido" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="date" id="fecha" required>
+
+        <select id="pais" required>
+            <option value="">Seleccione país</option>
+            <option>Argentina</option>
+            <option>Chile</option>
+            <option>Uruguay</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+        <button type="button" onclick="modoNormal()">Modo normal</button>
+        <button type="button" onclick="modoOscuro()">Alto contraste</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

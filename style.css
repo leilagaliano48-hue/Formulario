@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    font-family: sans-serif;
+    background: #f4f4f4;
+    transition: 0.3s;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 12px;
+}
+
+.container{
+border: 2px solid rgba(197, 16, 16, 0.2);
+background: #daa0b3;
+
+width: 90%;
+max-width: 450px;
+padding: 30px 40px;
+border-radius: 10px;
+color: black;
+backdrop-filter: blur(20px);
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+margin: 10px;
+margin-bottom: 30px;
+}
+
+
+input, select, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+
+button {
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-enviar {
+    background-color: #6a0dad;
+    color: white;
+}
+
+.btn-normal {
+    background-color: #2196F3;
+    color: white;
+}
+
+.btn-oscuro {
+    background-color: #333;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+/* MODO OSCURO */
+.dark {
+    background: rgb(214, 208, 208);
+    color: white;
+}
+
+.dark .container {
+    background: #4e4e4e;
+
+}
+
+.dark input,
+.dark select {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
