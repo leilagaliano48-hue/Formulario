@@ -2,16 +2,7 @@
 
 Proyecto realizado con HTML, CSS y JavaScript.
 
-## Tecnologías utilizadas
-
-* HTML
-* CSS
-* JavaScript
-
-## Repositorio
-
-[Repositorio Formulario](https://github.com/leilagaliano48-hue/Formulario?utm_source=chatgpt.com)
-
+Los cambio que hice fue en el formulario cambiando los colores
 ## Rama utilizada
 
 main
